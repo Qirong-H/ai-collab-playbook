@@ -10,3 +10,7 @@ docs/**/*.xhs-lossless.md
 docs/**/*.xiaohongshu.md
 docs/**/*-assets/
 docs/**/claude-code-remote/
+# Python caches
+__pycache__/
+*.pyc
+
