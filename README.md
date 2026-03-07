@@ -78,12 +78,12 @@
 
 ## Skills
 
-这里我目前保留了两层结构：
+围绕 skills，这个仓库里现在主要保留两层结构；另外，少数已经更适合单独维护的项目，我会单独拆仓：
 
 - [`skills/`](skills)：人类可读的中文索引与技能卡片
 - [`skills/full/`](skills/full)：当前适合公开同步的完整 skill 包
 
-如果你是第一次逛这些 skill，我建议先看：
+如果你想先看这个仓库里可直接浏览、可直接复用的 skill，我建议先看：
 
 - [`skills/README.md`](skills/README.md)
 - [`skills/full/README.md`](skills/full/README.md)
@@ -99,7 +99,15 @@
 - [`skills/writing-anti-ai.md`](skills/writing-anti-ai.md) / [`skills/full/writing-anti-ai/`](skills/full/writing-anti-ai)：去掉 AI 味，同时尽量保留原文真正想表达的立场和语气。
 - [`skills/xhs-longform-private-publisher.md`](skills/xhs-longform-private-publisher.md) / [`skills/full/xhs-longform-private-publisher/`](skills/full/xhs-longform-private-publisher)：把已有 Markdown 长文和插图尽量无损地私密发布到小红书。
 
-完整目录见：[`skills/README.md`](skills/README.md) / [`skills/full/README.md`](skills/full/README.md)
+### 独立技能项目（Standalone Skills）
+
+这部分收的是已经更适合单独维护、单独 star 和单独 fork 的技能项目；主仓这里继续保留总览、文章和它们之间的关系说明。
+
+- [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline)：从主仓里拆出的论文自审流水线，适合单独引用、单独 fork、单独继续迭代。
+- [`skills-governance`](https://github.com/cnfjlhj/skills-governance)：从主仓里拆出的 skill 盘点与治理工具，更适合作为独立小工具单独维护。
+- [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)：从主仓里拆出的 Codex 协作桥，用来把第二个 Codex CLI 会话接进当前工作流。
+
+仓库内完整目录见：[`skills/README.md`](skills/README.md) / [`skills/full/README.md`](skills/full/README.md)
 
 ## 仓库结构
 
@@ -113,4 +121,4 @@
 
 - 这是一个**中文优先**的仓库；目前提供了一个轻量英文入口页：[`README.en.md`](README.en.md)。
 - 这里公开的是我认为适合分享、适合同步到 GitHub 的版本，不等于我本地所有私有环境配置的完整镜像。
-- 一部分 skill 后续可能会继续打磨，并在条件成熟后拆成更适合单独 star、fork 与传播的独立仓库。
+- 第一批已经拆出的独立技能项目见上；后面如果还有 skill 长成了更完整的项目，我会继续单独拆仓维护，主仓这里优先保留总览、方法论和入口。

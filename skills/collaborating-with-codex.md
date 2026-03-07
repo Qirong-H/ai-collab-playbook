@@ -21,3 +21,4 @@
 边界：
 - 它本质上仍然是一个 CLI bridge，不是“多 Codex 协作平台”
 - 危险参数和高权限模式不能被当成默认安全能力来宣传
+独立仓库：<https://github.com/cnfjlhj/collaborating-with-codex>

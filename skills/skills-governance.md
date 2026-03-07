@@ -14,3 +14,4 @@
 - 不凭记忆下结论
 - 不用旧 catalog 当唯一事实源
 - 改动前先列目标路径，再确认
+独立仓库：<https://github.com/cnfjlhj/skills-governance>

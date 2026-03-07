@@ -24,3 +24,4 @@
 补充规则：
 - 如果输入是接近定稿的 PDF，先做本地 review，再额外问一次：是否还要走 `paperreview` 做外部二审
 - 不自动提交到外部服务
+独立仓库：<https://github.com/cnfjlhj/paper-review-pipeline>

@@ -70,10 +70,18 @@ The core ideas are simple:
 - [`writing-anti-ai`](skills/full/writing-anti-ai/): remove AI writing patterns while keeping the author's actual voice.
 - [`xhs-longform-private-publisher`](skills/full/xhs-longform-private-publisher/): publish an existing Markdown long-form post to Xiaohongshu in private mode with minimal rewriting.
 
-For the full directory view, see [`skills/README.en.md`](skills/README.en.md) and [`skills/full/README.en.md`](skills/full/README.en.md).
+## Standalone Skill Repos
+
+These are the first spin-outs that are now easier to star, fork, and maintain on their own, while the mother repo keeps the long-form article and overall context.
+
+- [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline): the standalone local paper-review workflow.
+- [`skills-governance`](https://github.com/cnfjlhj/skills-governance): the standalone inventory and governance tool for local skill collections.
+- [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex): the standalone bridge for collaborating with a second Codex CLI session.
+
+For the full in-repo directory view, see [`skills/README.en.md`](skills/README.en.md) and [`skills/full/README.en.md`](skills/full/README.en.md).
 
 ## Notes
 
 - This is a **Chinese-first** repository. Most prompts, the main article, and many skill notes are written in Chinese.
 - The public files here are the versions I consider safe and worth sharing, not a mirror of every private local setup.
-- Some skills may later be spun out into standalone repositories if they become strong enough to deserve separate stars, forks, and reuse paths.
+- The first wave of standalone skill repositories is already linked above. If more skills mature into stronger independent projects, I will spin them out while keeping this repo as the mother repo / overview layer.
