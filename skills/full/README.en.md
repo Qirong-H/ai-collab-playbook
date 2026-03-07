@@ -10,9 +10,9 @@ This is **not** a mirror of every private local skill I use. It is the subset I 
 
 ## How to Read This Directory
 
-- If you want a quick human-facing overview first, go back to [`../README.en.md`](../README.en.md) or the Chinese card catalog at [`../README.md`](../README.md).
+- If you want to go back to the repository homepage, see [`../../README.en.md`](../../README.en.md) or [`../../README.md`](../../README.md).
 - If you want the actual skill content, enter the relevant directory and start with `SKILL.md`.
-- If you are evaluating which skills might later deserve standalone repositories, this directory is the current public source of truth.
+- This directory is the in-repo source of truth for the public full skills.
 
 ## Research and Writing
 
