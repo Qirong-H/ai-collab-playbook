@@ -31,6 +31,7 @@ This is **not** a mirror of every private local skill I use. It is the subset I 
 - [`prompt-polisher/`](prompt-polisher/): turn messy notes or transcripts into a better prompt for Claude 4.x style workflows.
 - [`session-recovery-codex/`](session-recovery-codex/): recover Codex session state from a session id or recent session list.
 - [`skill-creator/`](skill-creator/): methods and tooling for turning personal workflows into reusable skills.
+- [`skill-governance-loop/`](skill-governance-loop/): govern skills from real cases, version updates, and keep/disable/archive decisions while clarifying what belongs in `AGENTS.md` versus a skill.
 - [`skills-governance/`](skills-governance/): filesystem-backed inventory and governance for large local skill collections.
 - [`find-skills/`](find-skills/): search skills.sh first, then fall back to GitHub-based discovery.
 

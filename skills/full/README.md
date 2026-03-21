@@ -29,6 +29,7 @@
 - [`prompt-polisher/`](prompt-polisher/)：把语音转写、碎笔记和粗糙说明清洗成更适合 Claude 4.x 系列执行的 prompt。
 - [`session-recovery-codex/`](session-recovery-codex/)：按 `session id` 或最近会话列表恢复 Codex 上下文，提取任务、TODO、文件与报错。
 - [`skill-creator/`](skill-creator/)：把个人工作流沉淀成 skill 的方法论与工具包，覆盖 frontmatter、资源拆分、初始化与校验。
+- [`skill-governance-loop/`](skill-governance-loop/)：从真实 case 出发做 skill 质量审计、版本更新、保留 / 禁用 / 归档决策，并明确什么应进入 `AGENTS.md`、什么应保留在 skill。
 - [`skills-governance/`](skills-governance/)：以真实文件系统扫描结果为准，做技能盘点、去重、保留 / 禁用 / 归档建议。
 - [`find-skills/`](find-skills/)：先查 skills.sh，再用 GitHub 深搜兜底，帮助找到合适 skill 或决定是否需要自己造一个。
 
