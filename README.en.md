@@ -20,6 +20,28 @@ If you are new here, start with the main article. The prompts, skills, and worki
 
 The public edition is now synced to `2026-03-20`. Alongside the text update, I also cleaned up the core figure set used on the homepage: the overview poster plus three focused visuals on learning, the code-agent framework, and the learning roadmap. If you only want the images, go to [`docs/figs`](docs/figs). If you want the context around them, start with the article.
 
+## Figure Preview
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="250"></a><br>
+      <sub><strong>Learning guide</strong></sub><br>
+      <sub>How I try to stay clear-headed when the noise gets loud.</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code agent framework" width="250"></a><br>
+      <sub><strong>Code agent framework</strong></sub><br>
+      <sub>How I wire multiple models and agents into one workflow.</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="250"></a><br>
+      <sub><strong>Learning roadmap</strong></sub><br>
+      <sub>What I still think is worth learning in the AI era.</sub>
+    </td>
+  </tr>
+</table>
+
 ## What Else Is in the Repo
 
 - **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)

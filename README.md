@@ -20,6 +20,28 @@
 
 这次公开版同步到 `2026-03-20`。除了正文，我也把首页最常用的几张图重新梳理了一遍：总览图之外，还有学习指南、Code Agent 框架和学习路线图三张图。想单独看图可以直接进 [`docs/figs`](docs/figs)；想连着上下文一起看，还是建议回到主文章。
 
+## 图集速览
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI时代学习指南图" width="250"></a><br>
+      <sub><strong>学习指南图</strong></sub><br>
+      <sub>噪声很大的时候，先把自己的判断稳住。</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code Agent 协作框架图" width="250"></a><br>
+      <sub><strong>Code Agent 框架图</strong></sub><br>
+      <sub>我是怎么把多个模型和 agent 接进一套工作流的。</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI时代学习路线图" width="250"></a><br>
+      <sub><strong>学习路线图</strong></sub><br>
+      <sub>AI 时代哪些基本功还值得补，我自己的看法。</sub>
+    </td>
+  </tr>
+</table>
+
 ## 仓库里还有什么
 
 - **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
