@@ -54,11 +54,11 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
 - [`AGENTS.md`](AGENTS.md): working rules for Codex and general agents
 - [`CLAUDE.md`](CLAUDE.md): working rules for Claude Code style workflows
 
-These files are not here as decoration. They are the working rules I actually use, so if you also want to treat AI as a collaborator rather than a demo tool, they are worth reading early.
+These files are not decoration. They are the rules I actually use, so if you also want AI inside your real workflow, they are worth reading early.
 
 ## Prompts
 
-These are prompt files I reuse frequently:
+These are prompt files I reuse a lot:
 
 - [`prompts/提示词优化器.md`](prompts/提示词优化器.md)
 - [`prompts/概念解释器.md`](prompts/概念解释器.md)
@@ -68,7 +68,7 @@ These are prompt files I reuse frequently:
 
 ## Full Skills
 
-This README only points to the full skills. It does not repeat the shorter `skills/*.md` index cards.
+This README points straight to the full skills instead of repeating the shorter `skills/*.md` index cards.
 
 - **In-repo full skill index**: [`skills/full/README.en.md`](skills/full/README.en.md)
 
@@ -88,5 +88,5 @@ The remaining full skills stay in this repository and can be reached from [`skil
 
 ## Notes
 
-- The public files here are the versions I consider suitable for sharing on GitHub, not a mirror of every private local setup I use.
-- The mother repo keeps the article, the rules, and the full skill entry points. Skills that become stronger standalone projects can continue to be split out into their own repositories.
+- The public files here are the versions I am willing to sync to GitHub, not a mirror of every private local setup I use.
+- This repo mainly keeps the article, the rules, and the full skill entry points. Skills that make more sense as standalone projects can keep moving out into their own repositories.

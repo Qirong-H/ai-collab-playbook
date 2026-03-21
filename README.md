@@ -54,11 +54,11 @@
 - [`AGENTS.md`](AGENTS.md)：Codex / 通用 agent 协作守则
 - [`CLAUDE.md`](CLAUDE.md)：Claude Code 协作守则
 
-这两份文件不是为了展示才放在这里，它们就是我平时真在用的协作规则。如果你也在把 AI 当同事来配合，而不是只拿来问几句，建议早点看。
+这两份文件不是摆设，就是我平时真在用的协作规则。如果你也想把 AI 接进日常工作流，建议早点看。
 
 ## Prompts
 
-这些文件是我日常会反复用到的 prompt 模板：
+这些是我日常会反复用到的 prompt 模板：
 
 - [`prompts/提示词优化器.md`](prompts/提示词优化器.md)
 - [`prompts/概念解释器.md`](prompts/概念解释器.md)
@@ -68,7 +68,7 @@
 
 ## 完整 Skills
 
-这里不再列 `skills/*.md` 那层简短卡片，只保留完整 skill 的入口。
+这里直接放完整 skill 的入口，不再重复 `skills/*.md` 那层简短卡片。
 
 - **仓内完整 skills 总目录**：[`skills/full/README.md`](skills/full/README.md)
 
@@ -84,9 +84,9 @@
 - [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai)
 - [`xhs-longform-private-publisher`](https://github.com/cnfjlhj/xhs-longform-private-publisher)
 
-其余仍保留在本仓的完整 skills，可以直接从 [`skills/full/README.md`](skills/full/README.md) 进入。
+其余还留在本仓的完整 skills，可以直接从 [`skills/full/README.md`](skills/full/README.md) 进入。
 
 ## 说明
 
-- 这里公开的是我认为适合分享、适合同步到 GitHub 的版本，不等于我本地私有环境配置的完整镜像。
-- 主仓优先保留文章、守则和完整 skill 入口；更适合单独维护的 skill 会继续拆成独立仓。
+- 这里公开的是我愿意同步到 GitHub 的版本，不是我本地私有环境的完整镜像。
+- 主仓优先保留文章、守则和完整 skill 入口；更适合单独维护的 skill，会继续拆成独立仓。
