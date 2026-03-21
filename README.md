@@ -10,13 +10,40 @@
 
 ## 快速导航
 
-- **最新文章（2026-03-13 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **最新文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
 - **更新节奏**：公开版本通常在每周五同步；如果当周有明显改动，也可能提前更新。
 - **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
 - **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 - **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Prompts**：[`prompts/`](prompts)
 - **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
+
+## 最新图示
+
+这次更新不只是正文补了一节，也把配图体系一起重画了。除了总览图，还新增了 3 张更聚焦的图，分别对应学习、生存策略和 code agent 框架。
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-collab-overview.png" alt="博士生 AI 协作总览图" width="420"></a><br>
+      <sub>博士生 AI 协作总览图</sub>
+    </td>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI 时代学习指南图" width="420"></a><br>
+      <sub>AI 时代学习指南图</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code Agent 框架图" width="420"></a><br>
+      <sub>Code Agent 框架图</sub>
+    </td>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI 学习路线图" width="420"></a><br>
+      <sub>AI 学习路线图</sub>
+    </td>
+  </tr>
+</table>
 
 ## 主文章
 
@@ -25,6 +52,7 @@
 
 - [`阅读全文`](docs/phd-ai-collab.md)
 - [`查看配图`](docs/figs)
+- [`直接看第八节：AI时代生存（学习）指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
 
 ## 协作守则
 

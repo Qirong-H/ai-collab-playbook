@@ -8,13 +8,40 @@ If you are new here, start with the main article: [`docs/phd-ai-collab.md`](docs
 
 ## Start Here
 
-- **Main article (2026-03-13 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **Main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
 - **Update cadence**: the public version is usually synced on Fridays, with occasional earlier updates when there are substantial changes.
 - **Linux.do discussion**: <https://linux.do/t/topic/1667121>
 - **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 - **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Prompts**: [`prompts/`](prompts)
 - **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
+
+## Latest Visual Updates
+
+This update was not just a text revision. The visual layer was rebuilt as well: one refreshed overview poster plus three focused figures for learning, survival strategy, and the code-agent framework.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-collab-overview.png" alt="PhD AI collaboration overview" width="420"></a><br>
+      <sub>PhD AI collaboration overview</sub>
+    </td>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="420"></a><br>
+      <sub>AI-era learning guide</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code agent framework" width="420"></a><br>
+      <sub>Code agent framework</sub>
+    </td>
+    <td align="center">
+      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="420"></a><br>
+      <sub>AI learning roadmap</sub>
+    </td>
+  </tr>
+</table>
 
 ## Main Article
 
@@ -23,6 +50,7 @@ It is the best entry point if you want the full picture rather than isolated tip
 
 - [`Read the full article`](docs/phd-ai-collab.md)
 - [`View the figures`](docs/figs)
+- [`Jump to section 8: AI-era Survival (Learning) Guide`](docs/phd-ai-collab.md#八ai时代生存学习指南)
 
 ## Working Rules
 
