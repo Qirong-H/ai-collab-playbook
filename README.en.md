@@ -2,17 +2,17 @@
 
 [中文](README.md) | English
 
-A Chinese-first playbook built from how I actually work with AI: reading papers, writing, coding, reviewing, and keeping the workflow usable over time.
+A practical AI collaboration playbook for research, writing, reading, and coding. This repository is not a loose collection of tricks; it organizes the main article, working rules, reusable prompts, and full skills into one workflow you can actually reuse.
 
-If you are new here, start with the main article. The prompts, skills, and working rules in this repo all grew out of that workflow rather than being collected as a separate showcase.
+If what you want is not "AI looks impressive" but "how do I get it into real daily work," start with the main article and then take the rules, prompts, and skill entry points you need.
 
 ## Start Here
 
-- **Main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **Jump to section 8: AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
-- **View all figures**: [`docs/figs`](docs/figs)
-- **Linux.do discussion**: <https://linux.do/t/topic/1667121>
-- **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
+- **New here? Start with the main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **Want the most concentrated section first?**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **Want reusable working rules right away?**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
+- **Looking for prompt templates you can reuse?**: [`prompts/`](prompts)
+- **Want the full skill index?**: [`skills/full/README.en.md`](skills/full/README.en.md)
 
 [![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
@@ -48,6 +48,11 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
 - **Prompts**: [`prompts/`](prompts)
 - **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
 - **Update cadence**: the public version is usually synced on Fridays, with earlier updates when something meaningfully changes.
+
+## External Posts And Discussion
+
+- **Linux.do discussion**: <https://linux.do/t/topic/1667121>
+- **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
 ## Working Rules
 

@@ -2,17 +2,17 @@
 
 [中文] | [English](README.en.md)
 
-这个仓库整理的是我平时和 AI 协作的真实用法：怎么把它接进日常科研、写作、阅读和代码工作流，哪些方式真的长期有用，哪些只是看起来热闹。
+面向科研、写作、阅读和编程的 AI 协作实战手册。这里不是零散技巧清单，而是把主文章、协作守则、常用 prompts 和完整 skills 组织成一套可复用的工作流。
 
-如果你是第一次来，建议先从主文章开始；其他 prompts、skills 和守则，都是从这套工作流里慢慢长出来的。
+如果你想找的不是“AI 看起来很厉害”，而是“怎么让它真的进入日常工作”，建议先读主文章，再按需要拿走规则文件、prompt 模板和 skill 入口。
 
-## 先看这里
+## 先从这里开始
 
-- **最新文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **直接看第八节：AI 时代生存（学习）指南**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
-- **查看全部配图**：[`docs/figs`](docs/figs)
-- **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
-- **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
+- **第一次来，先读主文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **想直接看最核心的一节**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **想直接拿可复用规则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
+- **想找日常会复用的模板**：[`prompts/`](prompts)
+- **想浏览完整 skills 索引**：[`skills/full/README.md`](skills/full/README.md)
 
 [![博士生 AI 协作总览图](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
@@ -48,6 +48,11 @@
 - **Prompts**：[`prompts/`](prompts)
 - **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
 - **更新节奏**：公开版本通常在每周五同步；如果当周有明显改动，也可能提前更新。
+
+## 外部转发与讨论
+
+- **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
+- **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
 ## 协作守则
 
