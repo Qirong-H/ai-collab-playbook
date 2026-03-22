@@ -55,6 +55,11 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
 - **Linux.do discussion**: <https://linux.do/t/topic/1667121>
 - **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
+## Feedback
+
+- **Open discussion, questions, or sharing your own adaptation**: <https://github.com/cnfjlhj/ai-collab-playbook/discussions>
+- **Corrections, structural feedback, or content fixes**: <https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
+
 ## Working Rules
 
 - [`AGENTS.md`](AGENTS.md): working rules for Codex and general agents

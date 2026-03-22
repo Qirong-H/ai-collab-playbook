@@ -1,0 +1,40 @@
+title: "[Show and Tell] "
+labels:
+  - showcase
+body:
+  - type: markdown
+    attributes:
+      value: |
+        如果你参考这个仓库改了自己的 workflow、rules、prompts 或 skills，欢迎直接贴出来。
+
+        我尤其想看：
+        - 你具体改了什么
+        - 哪一部分对你有用
+        - 哪一部分你删掉了
+        - 你的版本和我的版本差在哪里
+  - type: textarea
+    id: changed
+    attributes:
+      label: 你做了什么改动？
+      placeholder: 我把你的 AGENTS.md 改成了适合我团队的版本……
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 参考的是仓库里的哪一部分？
+      placeholder: README / AGENTS.md / 某个 prompt / 某个 skill / 某一节文章
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际效果怎么样？
+      placeholder: 有没有更顺、更清楚，或者反而踩了什么坑
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: 链接或截图（可选）
+      description: 如果你愿意公开，欢迎贴 repo / gist / 帖子 / 截图

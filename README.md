@@ -55,6 +55,11 @@
 - **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
 - **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
+## 反馈
+
+- **开放讨论 / 提问 / 分享你的改写版本**：<https://github.com/cnfjlhj/ai-collab-playbook/discussions>
+- **勘误 / 结构反馈 / 内容修正**：<https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
+
 ## 协作守则
 
 - [`AGENTS.md`](AGENTS.md)：Codex / 通用 agent 协作守则

@@ -1,0 +1,35 @@
+title: "[General] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        用这个分类发开放式讨论。
+
+        适合：
+        - 对整个仓库的总体感受
+        - 某一部分值不值得继续写
+        - 你觉得哪里太抽象、太像个人经验、或者太不 GitHub
+        - 你读完之后最想继续看的方向
+  - type: textarea
+    id: what_stood_out
+    attributes:
+      label: 哪一部分最让你记住？
+      placeholder: 可以是一节文章、一张图、一份规则文件、一个 prompt 或 skill
+    validations:
+      required: true
+  - type: textarea
+    id: what_didnt_work
+    attributes:
+      label: 哪一部分最不顺、最难懂，或者最不像你会复用的东西？
+      placeholder: 尽量说清“为什么”
+    validations:
+      required: true
+  - type: textarea
+    id: what_next
+    attributes:
+      label: 如果只做一个改进，你最希望我先改什么？
+      placeholder: 比如改首页、补示例、拆文章、补视频、补真实案例
+    validations:
+      required: true

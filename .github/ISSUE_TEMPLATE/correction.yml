@@ -1,0 +1,60 @@
+name: Correction / 勘误与修正
+description: 报告事实错误、坏链、过时信息、表述不清或明显笔误
+title: "[Correction] "
+labels:
+  - content
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when something in the repository is wrong enough that it should be fixed.
+
+        适合提交这里的情况：
+        - 事实错误
+        - 坏链 / 锚点失效
+        - 过时信息
+        - 表述含混、容易误导
+        - 明显错字、错图、位置错乱
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: 问题类型
+      options:
+        - 事实错误 / Factual error
+        - 坏链或锚点失效 / Broken link or anchor
+        - 信息过时 / Outdated information
+        - 表述不清 / Unclear wording
+        - 错字或排版问题 / Typo or formatting issue
+        - 图文不匹配 / Figure-content mismatch
+        - 其他 / Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 问题位置
+      description: 请尽量给出文件路径、章节标题、锚点链接或页面 URL
+      placeholder: README.md / docs/phd-ai-collab.md#八ai时代生存学习指南
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前有什么问题？
+      description: 描述你看到的错误、断链、过时信息或歧义
+      placeholder: 这里的表述会让人以为 X，但实际更接近 Y
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你建议怎么改？
+      description: 如果你已经有建议文案、正确链接或更准的说法，可以直接贴出来
+      placeholder: 可以直接改成……
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 相关依据（可选）
+      description: 可以贴截图、链接、引用或其他上下文

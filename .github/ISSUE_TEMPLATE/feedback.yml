@@ -1,0 +1,65 @@
+name: Feedback / 反馈建议
+description: 对文章、README、协作守则、prompts、skills 或整体结构提出可执行反馈
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to leave feedback.
+
+        这个仓库更希望收到 **具体、可执行** 的反馈，例如：
+        - 哪一部分最有用，为什么
+        - 哪一部分最不清楚，卡在哪里
+        - 哪一部分值得继续展开
+        - 哪些内容太抽象、太长、太个人化，导致难以复用
+  - type: dropdown
+    id: area
+    attributes:
+      label: 反馈的是哪一部分？
+      description: 选最接近的一项
+      options:
+        - 主文章 / Main article
+        - README / GitHub 首页
+        - 协作守则（AGENTS.md / CLAUDE.md）
+        - Prompts
+        - Skills
+        - 配图 / Figures
+        - 其他 / Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 对应位置（可选）
+      description: 文件路径、章节标题、锚点链接，或者直接贴 URL 都可以
+      placeholder: docs/phd-ai-collab.md#五code-agent
+  - type: textarea
+    id: useful
+    attributes:
+      label: 你觉得最有价值的部分是什么？
+      description: 尽量说具体一点，这能帮助我知道哪些内容值得继续加深
+      placeholder: 比如某一节、某一张图、某一份规则文件、某个 prompt/skill
+    validations:
+      required: true
+  - type: textarea
+    id: unclear
+    attributes:
+      label: 哪一部分让你困惑、劝退，或者不够可复用？
+      description: 如果能指出“卡住点”会更有帮助
+      placeholder: 比如太抽象、太长、太像个人习惯、缺例子、缺操作步骤、图太像等
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: 如果只扩展一处，你最希望我补什么？
+      placeholder: 比如把某个 prompt 展开成完整范例，或者把某一节改成更短的操作清单
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息（可选）
+      description: 可以贴截图、链接、你自己的使用场景，或者其他你觉得重要的上下文

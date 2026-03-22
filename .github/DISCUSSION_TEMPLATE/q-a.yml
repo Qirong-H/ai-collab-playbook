@@ -1,0 +1,32 @@
+title: "[Q&A] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        用这个分类问具体问题。
+
+        比如：
+        - 这套工作流适不适合某种场景
+        - 某份规则文件到底该怎么用
+        - 某个 prompt / skill / 图想表达什么
+  - type: textarea
+    id: question
+    attributes:
+      label: 你想问什么？
+      placeholder: 尽量把问题写得具体一点
+    validations:
+      required: true
+  - type: input
+    id: related_location
+    attributes:
+      label: 对应位置（可选）
+      description: 文件路径、章节标题、锚点链接或 URL
+      placeholder: AGENTS.md / docs/phd-ai-collab.md#五code-agent
+  - type: textarea
+    id: context
+    attributes:
+      label: 你的上下文（可选）
+      description: 如果你愿意，可以补一句你想把它用在什么场景里
+      placeholder: 我想把这套规则用在自己的代码仓库里，但不确定该从哪份文件开始抄

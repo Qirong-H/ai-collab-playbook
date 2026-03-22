@@ -1,0 +1,48 @@
+title: "[Idea] "
+labels:
+  - feedback
+  - workflow
+body:
+  - type: markdown
+    attributes:
+      value: |
+        用这个分类提“接下来该补什么”的想法。
+
+        比如：
+        - 哪种工作流值得单独拆成文章 / repo / skill
+        - 哪一类 prompt/skill 最值得公开
+        - 哪个平台/受众最值得针对性改写
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的建议是什么？
+      placeholder: 我希望你把……单独展开成……
+    validations:
+      required: true
+  - type: dropdown
+    id: related_area
+    attributes:
+      label: 主要相关部分
+      options:
+        - 主文章 / Main article
+        - 协作守则
+        - Prompts
+        - Skills
+        - README / GitHub 首页
+        - 配图 / Figures
+        - 宣传与分发 / Distribution
+        - 其他 / Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么这件事值得优先做？
+      placeholder: 它能解决什么问题，或者会帮助什么人
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 参考例子（可选）
+      description: 可以贴你看过的 repo、文章、帖子、产品或截图链接
