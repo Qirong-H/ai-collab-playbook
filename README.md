@@ -1,25 +1,18 @@
-# AI Collab Playbook
+<p align="center">
+  <img src="docs/figs/hero-banner.svg" width="100%" alt="AI Collab Playbook" />
+</p>
 
-[中文] | [English](README.en.md)
+<p align="center">
+  <a href="docs/phd-ai-collab.md"><strong>读主文章</strong></a> · <a href="skills/full/README.md">Skills 目录</a> · <a href="prompts">Prompts</a> · <a href="README.en.md">English</a>
+</p>
 
-面向科研、写作、阅读和编程的 AI 协作实战手册。这里不是零散技巧清单，而是把主文章、协作守则、常用 prompts 和完整 skills 组织成一套可复用的工作流。
+---
 
-仓库内容以主文章为主，其他文件分别对应协作守则、常用 prompts、配图和完整 skills 索引。
+面向科研、写作、阅读和编程的 AI 协作实战手册。不是零散技巧清单，而是把协作守则、Prompts 和 Skills 组织成一套可复用的工作流。
 
-## 目录
-
-- **主文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **AI时代生存（学习）指南**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
-- **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **Prompts**：[`prompts/`](prompts)
-- **配图**：[`docs/figs`](docs/figs)
-- **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
+这里公开的是我愿意同步到 GitHub 的版本。公开版通常每周五同步，有明显改动时可能提前。
 
 [![博士生 AI 协作总览图](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
-
-## 这次更新
-
-这次公开版同步到 `2026-03-20`。除了正文，我也把首页最常用的几张图重新梳理了一遍：总览图之外，还有学习指南、Code Agent 框架和学习路线图三张图。想单独看图可以直接进 [`docs/figs`](docs/figs)；想连着上下文一起看，还是建议回到主文章。
 
 ## 图集速览
 
@@ -27,81 +20,58 @@
   <tr>
     <td align="center" width="33%">
       <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI时代学习指南图" width="250"></a><br>
-      <sub><strong>学习指南图</strong></sub><br>
+      <sub><strong>学习指南</strong></sub><br>
       <sub>噪声很大的时候，先把自己的判断稳住。</sub>
     </td>
     <td align="center" width="33%">
       <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code Agent 协作框架图" width="250"></a><br>
-      <sub><strong>Code Agent 框架图</strong></sub><br>
-      <sub>我是怎么把多个模型和 agent 接进一套工作流的。</sub>
+      <sub><strong>Code Agent 框架</strong></sub><br>
+      <sub>怎么把多个模型和 agent 接进一套工作流。</sub>
     </td>
     <td align="center" width="33%">
       <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI时代学习路线图" width="250"></a><br>
-      <sub><strong>学习路线图</strong></sub><br>
-      <sub>AI 时代哪些基本功还值得补，我自己的看法。</sub>
+      <sub><strong>学习路线</strong></sub><br>
+      <sub>AI 时代哪些基本功还值得补。</sub>
     </td>
   </tr>
 </table>
 
-## 仓库里还有什么
+## 仓库内容
 
-- **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **Prompts**：[`prompts/`](prompts)
-- **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
-- **更新节奏**：公开版本通常在每周五同步；如果当周有明显改动，也可能提前更新。
+| 类别 | 入口 | 说明 |
+|------|------|------|
+| 主文章 | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | 完整方法论，2026-03-20 版 |
+| 协作守则 | [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md) | 我平时真在用的 AI 协作规则 |
+| Prompts | [`prompts/`](prompts) | 提示词优化器、概念解释器、论文精读等 5 个模板 |
+| 完整 Skills | [`skills/full/README.md`](skills/full/README.md) | 仓内所有 skill 总目录 |
+| 配图 | [`docs/figs/`](docs/figs) | 总览图、学习指南、框架图、路线图 |
 
-## 外部转发
+## 独立仓库的 Skills
 
-- **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
+以下 Skills 已拆出独立维护：
+
+| Skill | 用途 |
+|-------|------|
+| [paper-review-pipeline](https://github.com/cnfjlhj/paper-review-pipeline) | 论文审稿流水线 |
+| [paperreview](https://github.com/cnfjlhj/paperreview) | 论文评审 |
+| [skills-governance](https://github.com/cnfjlhj/skills-governance) | Skills 治理 |
+| [session-recovery-codex](https://github.com/cnfjlhj/session-recovery-codex) | 会话恢复 |
+| [collaborating-with-codex](https://github.com/cnfjlhj/collaborating-with-codex) | Codex 协作 |
+| [xhs-note-creator](https://github.com/cnfjlhj/xhs-note-creator) | 小红书笔记创作 |
+| [prompt-polisher](https://github.com/cnfjlhj/prompt-polisher) | 提示词润色 |
+| [writing-anti-ai](https://github.com/cnfjlhj/writing-anti-ai) | 去 AI 味写作 |
+| [xhs-longform-private-publisher](https://github.com/cnfjlhj/xhs-longform-private-publisher) | 小红书长文发布 |
 
 ## 反馈
 
-- **随手留言 / 读后反馈 / 分享你的改写版本**：<https://github.com/cnfjlhj/ai-collab-playbook/discussions/1>
-- **勘误 / 结构反馈 / 内容修正**：<https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
+- 随手留言 / 读后反馈：[Discussions](https://github.com/cnfjlhj/ai-collab-playbook/discussions/1)
+- 勘误 / 结构建议：[提 Issue](https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose)
+- 小红书转发版：[链接](https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e)
 
-## 协作守则
+---
 
-- [`AGENTS.md`](AGENTS.md)：Codex / 通用 agent 协作守则
-- [`CLAUDE.md`](CLAUDE.md)：Claude Code 协作守则
-
-这两份文件不是摆设，就是我平时真在用的协作规则。如果你也想把 AI 接进日常工作流，建议早点看。
-
-## Prompts
-
-这些是我日常会反复用到的 prompt 模板：
-
-- [`prompts/提示词优化器.md`](prompts/提示词优化器.md)
-- [`prompts/概念解释器.md`](prompts/概念解释器.md)
-- [`prompts/视频时间戳总结.md`](prompts/视频时间戳总结.md)
-- [`prompts/论文精读.md`](prompts/论文精读.md)
-- [`prompts/论文转网页.md`](prompts/论文转网页.md)
-
-## 完整 Skills
-
-这里直接放完整 skill 的入口，不再重复 `skills/*.md` 那层简短卡片。
-
-- **仓内完整 skills 总目录**：[`skills/full/README.md`](skills/full/README.md)
-
-### 已拆成独立仓的 skills
-
-- [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline)
-- [`paperreview`](https://github.com/cnfjlhj/paperreview)
-- [`skills-governance`](https://github.com/cnfjlhj/skills-governance)
-- [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex)
-- [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)
-- [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator)
-- [`prompt-polisher`](https://github.com/cnfjlhj/prompt-polisher)
-- [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai)
-- [`xhs-longform-private-publisher`](https://github.com/cnfjlhj/xhs-longform-private-publisher)
-
-其余还留在本仓的完整 skills，可以直接从 [`skills/full/README.md`](skills/full/README.md) 进入。
-
-## 说明
-
-- 这里公开的是我愿意同步到 GitHub 的版本，不是我本地私有环境的完整镜像。
-- 主仓优先保留文章、守则和完整 skill 入口；更适合单独维护的 skill，会继续拆成独立仓。
-
-## ⭐ Star History
+<details>
+<summary>Star History</summary>
 
 <a href="https://www.star-history.com/?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left">
   <picture>
@@ -119,3 +89,5 @@
     />
   </picture>
 </a>
+
+</details>
