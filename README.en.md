@@ -50,9 +50,8 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
 - **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
 - **Update cadence**: the public version is usually synced on Fridays, with earlier updates when something meaningfully changes.
 
-## External Posts And Discussion
+## External Posts
 
-- **Linux.do discussion**: <https://linux.do/t/topic/1667121>
 - **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
 ## Feedback

@@ -50,9 +50,8 @@
 - **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
 - **更新节奏**：公开版本通常在每周五同步；如果当周有明显改动，也可能提前更新。
 
-## 外部转发与讨论
+## 外部转发
 
-- **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
 - **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 
 ## 反馈
