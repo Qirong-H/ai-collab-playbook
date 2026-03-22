@@ -20,27 +20,6 @@ If you are new here, start with the main article. The prompts, skills, and worki
 
 The public edition is now synced to `2026-03-20`. Alongside the text update, I also cleaned up the core figure set used on the homepage: the overview poster plus three focused visuals on learning, the code-agent framework, and the learning roadmap. If you only want the images, go to [`docs/figs`](docs/figs). If you want the context around them, start with the article.
 
-## Star History
-
-If you want to see the star growth trend for this repository directly on the homepage, the chart below does that:
-
-<a href="https://www.star-history.com/?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&theme=dark&legend=top-left"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
-    />
-    <img
-      alt="Star History Chart"
-      src="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
-    />
-  </picture>
-</a>
-
 ## Figure Preview
 
 <table>
@@ -111,3 +90,22 @@ The remaining full skills stay in this repository and can be reached from [`skil
 
 - The public files here are the versions I am willing to sync to GitHub, not a mirror of every private local setup I use.
 - This repo mainly keeps the article, the rules, and the full skill entry points. Skills that make more sense as standalone projects can keep moving out into their own repositories.
+
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&theme=dark&legend=top-left"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+    />
+    <img
+      alt="Star History Chart"
+      src="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+    />
+  </picture>
+</a>
